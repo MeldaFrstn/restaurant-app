@@ -16,7 +16,7 @@
             "request": "launch",
             "program": "${file}",
             "cwd": "${fileDirname}",
-            "port": 0,
+            "port": 0,            winget install --id GitHub.cli            gh auth login            gh repo create --public --source=. --remote=origin --push
             "runtimeArgs": [
                 "-dxdebug.start_with_request=yes"
             ],
