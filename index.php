@@ -5,7 +5,7 @@
   <title>Restoran - Daftar Pemesanan</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 p-6">
+<body class="bg-cream-100 p-6">
   <div class="max-w-5xl mx-auto">
     <h1 class="text-3xl font-bold mb-6">Restaurant App</h1>
 
