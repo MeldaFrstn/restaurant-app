@@ -7,17 +7,17 @@
 </head>
 <body class="bg-gray-100 p-6">
   <div class="max-w-5xl mx-auto">
-    <h1 class="text-3xl font-bold mb-6">Sistem Pemesanan Restoran</h1>
+    <h1 class="text-3xl font-bold mb-6">Restaurant App</h1>
 
     <a href="add_booking.php" class="bg-green-600 text-white px-4 py-2 rounded mb-4 inline-block hover:bg-green-700">+ Tambah Pemesanan</a>
 
-    <div class="mt-6 bg-white shadow rounded p-4">
+    <div class="mt-6 bg-gray shadow rounded p-4">
       <h2 class="text-xl font-semibold mb-4">Daftar Pemesanan</h2>
       <table class="min-w-full divide-y">
         <thead>
           <tr class="bg-gray-50">
             <th class="px-4 py-2 text-left">Pelanggan</th>
-            <th class="px-4 py-2 text-left">Meja</th>
+            <th class="px-4 py-2 text-left">booking Meja</th>
             <th class="px-4 py-2 text-left">Tanggal & Waktu</th>
             <th class="px-4 py-2 text-left">Jumlah</th>
             <th class="px-4 py-2 text-left">Aksi</th>
@@ -36,7 +36,7 @@
               <td class='px-4 py-2'>{$p['jumlah_orang']}</td>
               <td class='px-4 py-2'>
                 <a href='edit_booking.php?id={$p['id_pemesanan']}' class='text-blue-600 hover:underline mr-3'>Edit</a>
-                <a href='delete_booking.php?id={$p['id_pemesanan']}' class='text-red-600 hover:underline' onclick=\"return confirm('Yakin hapus?')\">Hapus</a>
+                <a href='delete_booking.php?id={$p['id_pemesanan']}' class='text-purple-600 hover:underline' onclick=\"return confirm('Yakin hapus?')\">Hapus</a>
               </td>
             </tr>";
           }
